@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fee Structure - HM Academy</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="logo">HM<span> Academy</span></a>
+      <button class="menu-toggle" onclick="document.querySelector('.nav-links').classList.toggle('active')">☰</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="admissions.html">Admissions</a></li>
+        <li><a href="fees.html" class="active">Fees</a></li>
+        <li><a href="apply.html">Apply</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="page-header">
+    <h1>Fee Structure 2026-27</h1>
+    <p>Transparent and affordable fees for every class</p>
+  </section>
+
+  <section class="section">
+    <div class="container">
+
+      <!-- PRE-PRIMARY -->
+      <h2 class="section-title">Pre-Primary (Nursery - UKG)</h2>
+      <div class="table-container">
+        <div class="table-title">🌱 Pre-Primary Section</div>
+        <table>
+          <thead>
+            <tr>
+              <th>Class</th>
+              <th>Admission Fee (One-time)</th>
+              <th>Tuition Fee (Monthly)</th>
+              <th>Annual Charges</th>
+              <th>Total (1st Year)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Nursery</td>
+              <td>₹ 10,000</td>
+              <td>₹ 2,000</td>
+              <td>₹ 5,000</td>
+              <td>₹ 39,000</td>
+            </tr>
+            <tr>
+              <td>LKG</td>
+              <td>—</td>
+              <td>₹ 2,000</td>
+              <td>₹ 5,000</td>
+              <td>₹ 29,000</td>
+            </tr>
+            <tr>
+              <td>UKG</td>
+              <td>—</td>
+              <td>₹ 2,200</td>
+              <td>₹ 5,000</td>
+              <td>₹ 31,400</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- PRIMARY -->
+      <h2 class="section-title">Primary (Class I - V)</h2>
+      <div class="table-container">
+        <div class="table-title">📚 Primary Section</div>
+        <table>
+          <thead>
+            <tr>
+              <th>Class</th>
+              <th>Admission Fee (One-time)</th>
+              <th>Tuition Fee (Monthly)</th>
+              <th>Annual Charges</th>
+              <th>Total (1st Year)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Class I</td>
+              <td>₹ 12,000</td>
+              <td>₹ 2,500</td>
+              <td>₹ 6,000</td>
+              <td>₹ 48,000</td>
+            </tr>
+            <tr>
+              <td>Class II</td>
+              <td>—</td>
+              <td>₹ 2,500</td>
+              <td>₹ 6,000</td>
+              <td>₹ 36,000</td>
+            </tr>
+            <tr>
+              <td>Class III</td>
+              <td>—</td>
+              <td>₹ 2,700</td>
+              <td>₹ 6,000</td>
+              <td>₹ 38,400</td>
+            </tr>
+            <tr>
+              <td>Class IV</td>
+              <td>—</td>
+              <td>₹ 2,700</td>
+              <td>₹ 6,000</td>
+              <td>₹ 38,400</td>
+            </tr>
+            <tr>
+              <td>Class V</td>
+              <td>—</td>
+              <td>₹ 3,000</td>
+              <td>₹ 6,000</td>
+              <td>₹ 42,000</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- MIDDLE -->
+      <h2 class="section-title">Middle School (Class VI - VIII)</h2>
+      <div class="table-container">
+        <div class="table-title">📘 Middle School Section</div>
+        <table>
+          <thead>
+            <tr>
+              <th>Class</th>
+              <th>Admission Fee (One-time)</th>
+              <th>Tuition Fee (Monthly)</th>
+              <th>Annual Charges</th>
+              <th>Total (1st Year)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Class VI</td>
+              <td>₹ 15,000</td>
+              <td>₹ 3,500</td>
+              <td>₹ 8,000</td>
+              <td>₹ 57,000</td>
+            </tr>
+            <tr>
+              <td>Class VII</td>
+              <td>—</td>
+              <td>₹ 3,500</td>
+              <td>₹ 8,000</td>
+              <td>₹ 50,000</td>
+            </tr>
+            <tr>
+              <td>Class VIII</td>
+              <td>—</td>
+              <td>₹ 3,800</td>
+              <td>₹ 8,000</td>
+              <td>₹ 53,600</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- SECONDARY -->
+      <h2 class="section-title">Secondary (Class IX - X)</h2>
+      <div class="table-container">
+        <div class="table-title">📗 Secondary Section</div>
+        <table>
+          <thead>
+            <tr>
+              <th>Class</th>
+              <th>Admission Fee (One-time)</th>
+              <th>Tuition Fee (Monthly)</th>
+              <th>Annual Charges</th>
+              <th>Total (1st Year)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Class IX</td>
+              <td>₹ 18,000</td>
+              <td>₹ 4,500</td>
+              <td>₹ 10,000</td>
+              <td>₹ 72,000</td>
+            </tr>
+            <tr>
+              <td>Class X</td>
+              <td>—</td>
+              <td>₹ 4,800</td>
+              <td>₹ 10,000</td>
+              <td>₹ 67,600</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- SENIOR SECONDARY -->
+      <h2 class="section-title">Senior Secondary (Class XI - XII)</h2>
+      <div class="table-container">
+        <div class="table-title">🎓 Senior Secondary Section</div>
+        <table>
+          <thead>
+            <tr>
+              <th>Class & Stream</th>
+              <th>Admission Fee (One-time)</th>
+              <th>Tuition Fee (Monthly)</th>
+              <th>Annual Charges</th>
+              <th>Total (1st Year)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Class XI - Science (PCM)</td>
+              <td>₹ 22,000</td>
+              <td>₹ 6,000</td>
+              <td>₹ 12,000</td>
+              <td>₹ 94,000</td>
+            </tr>
+            <tr>
+              <td>Class XI - Science (PCB)</td>
+              <td>₹ 22,000</td>
+              <td>₹ 6,000</td>
+              <td>₹ 12,000</td>
+              <td>₹ 94,000</td>
+            </tr>
+            <tr>
+              <td>Class XI - Commerce</td>
+              <td>₹ 20,000</td>
+              <td>₹ 5,500</td>
+              <td>₹ 12,000</td>
+              <td>₹ 86,000</td>
+            </tr>
+            <tr>
+              <td>Class XI - Arts</td>
+              <td>₹ 18,000</td>
+              <td>₹ 5,000</td>
+              <td>₹ 12,000</td>
+              <td>₹ 78,000</td>
+            </tr>
+            <tr>
+              <td>Class XII - Science</td>
+              <td>—</td>
+              <td>₹ 6,500</td>
+              <td>₹ 12,000</td>
+              <td>₹ 90,000</td>
+            </tr>
+            <tr>
+              <td>Class XII - Commerce</td>
+              <td>—</td>
+              <td>₹ 6,000</td>
+              <td>₹ 12,000</td>
+              <td>₹ 84,000</td>
+            </tr>
+            <tr>
+              <td>Class XII - Arts</td>
+              <td>—</td>
+              <td>₹ 5,500</td>
+              <td>₹ 12,000</td>
+              <td>₹ 78,000</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- NOTES -->
+      <div class="note-box">
+        <h4>📌 Important Notes</h4>
+        <ul style="color: var(--gray); padding-left: 20px;">
+          <li>Admission fee is a <strong>one-time payment</strong> applicable only in the year of joining.</li>
+          <li>Annual charges include: Lab fees, Library fees, Sports fees, Annual function, and ID card.</li>
+          <li>Tuition fee can be paid <strong>monthly, quarterly, half-yearly, or annually</strong>.</li>
+          <li>5% discount on annual payment of tuition fee.</li>
+          <li>Sibling discount: 10% on tuition fee for the second child, 15% for the third.</li>
+          <li>Transport facility available at additional cost (₹1,500 - ₹3,000/month based on distance).</li>
+          <li>All fees are subject to revision as per school policy with prior notice.</li>
+        </ul>
+      </div>
+
+      <!-- PAYMENT OPTIONS -->
+      <h2 class="section-title" style="margin-top: 50px;">Payment Options</h2>
+      <div class="grid">
+        <div class="card">
+          <div class="card-icon">💳</div>
+          <h3>Online Payment</h3>
+          <p>Pay via UPI, Net Banking, Credit/Debit Card through our secure parent portal.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">🏦</div>
+          <h3>Bank Transfer</h3>
+          <p>NEFT/RTGS to HM Academy account. Details available at the accounts office.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">💵</div>
+          <h3>Offline Payment</h3>
+          <p>Pay cash or cheque at the school accounts office during working hours.</p>
+        </div>
+      </div>
+
+      <div style="text-align: center; margin-top: 40px;">
+        <a href="apply.html" class="btn">Apply for Admission</a>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <p>&copy; 2026 HM Academy. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

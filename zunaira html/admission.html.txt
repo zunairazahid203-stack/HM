@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admission Details - HM Academy</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="logo">HM<span> Academy</span></a>
+      <button class="menu-toggle" onclick="document.querySelector('.nav-links').classList.toggle('active')">☰</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="admissions.html" class="active">Admissions</a></li>
+        <li><a href="fees.html">Fees</a></li>
+        <li><a href="apply.html">Apply</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="page-header">
+    <h1>Admission Details</h1>
+    <p>Everything you need to know about joining HM Academy</p>
+  </section>
+
+  <!-- IMPORTANT DATES -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Admission Schedule 2026-27</h2>
+      <p class="section-subtitle">Important dates for the upcoming academic session</p>
+      <div class="table-container">
+        <table>
+          <thead>
+            <tr>
+              <th>Event</th>
+              <th>Start Date</th>
+              <th>End Date</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Form Availability</td>
+              <td>15 January 2026</td>
+              <td>30 April 2026</td>
+              <td style="color: var(--success); font-weight: bold;">Open</td>
+            </tr>
+            <tr>
+              <td>Last Date to Apply</td>
+              <td colspan="2">30 April 2026</td>
+              <td style="color: var(--secondary); font-weight: bold;">Upcoming</td>
+            </tr>
+            <tr>
+              <td>Entrance Test (Class 1+)</td>
+              <td colspan="2">10 May 2026</td>
+              <td style="color: var(--secondary); font-weight: bold;">Upcoming</td>
+            </tr>
+            <tr>
+              <td>Interaction (Nursery - UKG)</td>
+              <td colspan="2">12-15 May 2026</td>
+              <td style="color: var(--secondary); font-weight: bold;">Upcoming</td>
+            </tr>
+            <tr>
+              <td>Merit List Declaration</td>
+              <td colspan="2">25 May 2026</td>
+              <td style="color: var(--secondary); font-weight: bold;">Upcoming</td>
+            </tr>
+            <tr>
+              <td>Fee Payment Deadline</td>
+              <td colspan="2">15 June 2026</td>
+              <td style="color: var(--secondary); font-weight: bold;">Upcoming</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ELIGIBILITY -->
+  <section class="section" style="background: var(--light);">
+    <div class="container">
+      <h2 class="section-title">Eligibility Criteria</h2>
+      <p class="section-subtitle">Age and qualification requirements for each class</p>
+      <div class="table-container">
+        <table>
+          <thead>
+            <tr>
+              <th>Class</th>
+              <th>Minimum Age (as on 31 March 2026)</th>
+              <th>Previous Qualification</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Nursery</td><td>3+ years</td><td>—</td></tr>
+            <tr><td>LKG</td><td>4+ years</td><td>—</td></tr>
+            <tr><td>UKG</td><td>5+ years</td><td>—</td></tr>
+            <tr><td>Class I</td><td>6+ years</td><td>UKG Passed</td></tr>
+            <tr><td>Class II - V</td><td>As per class</td><td>Previous class passed</td></tr>
+            <tr><td>Class VI - VIII</td><td>As per class</td><td>Previous class passed</td></tr>
+            <tr><td>Class IX</td><td>14+ years</td><td>Class VIII passed</td></tr>
+            <tr><td>Class XI (Science)</td><td>16+ years</td><td>Class X with 60%+ (PCM/PCB)</td></tr>
+            <tr><td>Class XI (Commerce)</td><td>16+ years</td><td>Class X with 55%+</td></tr>
+            <tr><td>Class XI (Arts)</td><td>16+ years</td><td>Class X passed</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Admission Process</h2>
+      <p class="section-subtitle">Simple 5-step process to secure admission</p>
+      <div class="grid">
+        <div class="card">
+          <div class="card-icon">1️⃣</div>
+          <h3>Online Application</h3>
+          <p>Fill the application form on our website with student and parent details.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">2️⃣</div>
+          <h3>Document Submission</h3>
+          <p>Upload birth certificate, previous report card, photos, and transfer certificate.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">3️⃣</div>
+          <h3>Entrance Test / Interaction</h3>
+          <p>Appear for the test (Class 1+) or child-parent interaction (Nursery-UKG).</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">4️⃣</div>
+          <h3>Merit List</h3>
+          <p>Selected students are announced on the merit list published on our website.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">5️⃣</div>
+          <h3>Fee Payment</h3>
+          <p>Complete the fee payment online or at the school office to confirm admission.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">6️⃣</div>
+          <h3>Welcome to HM!</h3>
+          <p>Collect books, uniform, and ID card. Begin your journey with us!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DOCUMENTS REQUIRED -->
+  <section class="section" style="background: var(--light);">
+    <div class="container">
+      <h2 class="section-title">Documents Required</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>📄 Mandatory Documents</h3>
+          <ul style="list-style: none; color: var(--gray);">
+            <li>✓ Birth Certificate (original + copy)</li>
+            <li>✓ Aadhaar Card of child and parents</li>
+            <li>✓ 4 passport-size photographs</li>
+            <li>✓ Previous class report card</li>
+            <li>✓ Transfer Certificate (for Class 2+)</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>📋 Additional (if applicable)</h3>
+          <ul style="list-style: none; color: var(--gray);">
+            <li>✓ Migration Certificate</li>
+            <li>✓ Caste Certificate (if reserved)</li>
+            <li>✓ Medical Fitness Certificate</li>
+            <li>✓ Address Proof</li>
+            <li>✓ Blood Group Report</li>
+          </ul>
+        </div>
+      </div>
+      <div style="text-align: center; margin-top: 40px;">
+        <a href="apply.html" class="btn">Start Your Application</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <p>&copy; 2026 HM Academy. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

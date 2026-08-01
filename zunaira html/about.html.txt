@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - HM Academy</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="logo">HM<span> Academy</span></a>
+      <button class="menu-toggle" onclick="document.querySelector('.nav-links').classList.toggle('active')">☰</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" class="active">About</a></li>
+        <li><a href="admissions.html">Admissions</a></li>
+        <li><a href="fees.html">Fees</a></li>
+        <li><a href="apply.html">Apply</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="page-header">
+    <h1>About HM Academy</h1>
+    <p>Our story, mission, and legacy of excellence</p>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="grid" style="grid-template-columns: 1fr 1fr; align-items: center;">
+        <div>
+          <h2 class="section-title" style="text-align:left;">Our Story</h2>
+          <p style="margin-top:20px; color:var(--gray);">Founded in 2005, HM Academy began with a simple yet powerful vision: to provide world-class education that transforms lives. Over two decades, we have grown from a small learning center into a renowned institution serving thousands of students from Nursery to Class 12.</p>
+          <p style="margin-top:15px; color:var(--gray);">Our name "HM" stands for <strong>"Higher Minds"</strong> — a reflection of our commitment to intellectual growth, character building, and holistic development of every student.</p>
+        </div>
+        <div style="background: linear-gradient(135deg, var(--primary), var(--accent)); height: 350px; border-radius: 12px; display: flex; align-items: center; justify-content: center; color: white; font-size: 4rem;">
+          🏛️
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="background: var(--light);">
+    <div class="container">
+      <h2 class="section-title">Our Mission & Vision</h2>
+      <div class="grid" style="margin-top: 40px;">
+        <div class="card">
+          <div class="card-icon">🎯</div>
+          <h3>Our Mission</h3>
+          <p>To deliver transformative education that empowers students with knowledge, skills, and values needed to excel in a rapidly evolving world.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">🔭</div>
+          <h3>Our Vision</h3>
+          <p>To be a globally recognized institution of academic excellence, innovation, and character development, shaping leaders for tomorrow.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">💎</div>
+          <h3>Our Values</h3>
+          <p>Integrity, Excellence, Innovation, Inclusivity, and Lifelong Learning form the foundation of everything we do at HM Academy.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PREVIOUS DETAILS / HISTORY -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Our Journey & Achievements</h2>
+      <p class="section-subtitle">Two decades of shaping young minds</p>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-year">2005</div>
+          <h4>Foundation</h4>
+          <p>HM Academy was established with Nursery to Class 5, starting with just 50 students.</p>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-year">2010</div>
+          <h4>Expansion to Class 10</h4>
+          <p>Extended curriculum up to Class 10 with CBSE affiliation. First batch scored 98% results.</p>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-year">2014</div>
+          <h4>Senior Secondary Added</h4>
+          <p>Launched Class 11 & 12 with Science and Commerce streams. Built new science labs.</p>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-year">2018</div>
+          <h4>Arts Stream & Smart Classes</h4>
+          <p>Introduced Arts stream and installed smart boards in all 40+ classrooms.</p>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-year">2022</div>
+          <h4>State Topper Produced</h4>
+          <p>Our student Riya Sharma secured AIR 12 in CBSE Class 12 Board Exams.</p>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-year">2025</div>
+          <h4>20 Years of Excellence</h4>
+          <p>Celebrated 20 years with 15,000+ alumni across the globe in top universities and companies.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PREVIOUS RESULTS -->
+  <section class="section" style="background: var(--light);">
+    <div class="container">
+      <h2 class="section-title">Previous Board Results</h2>
+      <p class="section-subtitle">Our consistent track record of academic excellence</p>
+      <div class="table-container">
+        <table>
+          <thead>
+            <tr>
+              <th>Year</th>
+              <th>Class</th>
+              <th>Appeared</th>
+              <th>Passed</th>
+              <th>Pass %</th>
+              <th>Above 90%</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>2025</td>
+              <td>Class X</td>
+              <td>180</td>
+              <td>178</td>
+              <td>98.9%</td>
+              <td>45</td>
+            </tr>
+            <tr>
+              <td>2025</td>
+              <td>Class XII</td>
+              <td>150</td>
+              <td>147</td>
+              <td>98.0%</td>
+              <td>38</td>
+            </tr>
+            <tr>
+              <td>2024</td>
+              <td>Class X</td>
+              <td>170</td>
+              <td>168</td>
+              <td>98.8%</td>
+              <td>42</td>
+            </tr>
+            <tr>
+              <td>2024</td>
+              <td>Class XII</td>
+              <td>140</td>
+              <td>137</td>
+              <td>97.8%</td>
+              <td>35</td>
+            </tr>
+            <tr>
+              <td>2023</td>
+              <td>Class X</td>
+              <td>165</td>
+              <td>163</td>
+              <td>98.7%</td>
+              <td>40</td>
+            </tr>
+            <tr>
+              <td>2023</td>
+              <td>Class XII</td>
+              <td>130</td>
+              <td>127</td>
+              <td>97.6%</td>
+              <td>32</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="stats">
+    <div class="container">
+      <div class="stats-grid">
+        <div>
+          <div class="stat-number">15K+</div>
+          <div class="stat-label">Alumni Worldwide</div>
+        </div>
+        <div>
+          <div class="stat-number">98%</div>
+          <div class="stat-label">Avg Pass Rate</div>
+        </div>
+        <div>
+          <div class="stat-number">120+</div>
+          <div class="stat-label">School Rankers</div>
+        </div>
+        <div>
+          <div class="stat-number">30+</div>
+          <div class="stat-label">Awards Won</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <p>&copy; 2026 HM Academy. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
